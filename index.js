@@ -3,6 +3,7 @@ exports.decorateConfig = (config) => {
 				backgroundColor: "#2a3354",
 				cursorColor: "#db00be",
 				cursorAccentColor: "#db00be",
+				borderColor: "#54daff",
 				css: `
 					${config.css || ''}
 					.tabs_nav .tabs_list .tab_text {
@@ -33,14 +34,4 @@ exports.decorateConfig = (config) => {
     });
 }
 
-// exports.decorateTerm = (Term, {React, notify}) => {
-//     return class extends React.Component {
-//         render () {
-//             const children = [
-//                 // React.createElement("img", {style: styles.img, src: __dirname + "/image/minato.png"}),
-//                 React.createElement(Term, this.props),
-//             ];
-//             return React.createElement("div", {style: { width: '100%', height: '100%', position: 'relative'}}, children);
-//         }
-//     }
-// }
+
