@@ -4,6 +4,25 @@ exports.decorateConfig = (config) => {
 				cursorColor: "#db00be",
 				cursorAccentColor: "#db00be",
 				borderColor: "#54daff",
+				foregroundColor: '#fff',
+				colors: {
+					black: '#000000',
+					red: '#C51E14',
+					green: '#1DC121',
+					yellow: '#C7C329',
+					blue: '#4fcdff',
+					magenta: '#ff94fa',
+					cyan: '#20C5C6',
+					white: '#C7C7C7',
+					lightBlack: '#686868',
+					lightRed: '#FD6F6B',
+					lightGreen: '#67F86F',
+					lightYellow: '#FFFA72',
+					lightBlue: '#6A76FB',
+					lightMagenta: '#FD7CFC',
+					lightCyan: '#68FDFE',
+					lightWhite: '#FFFFFF',
+				  },
 				css: `
 					${config.css || ''}
 					.tabs_nav .tabs_list .tab_text {
