@@ -1,10 +1,9 @@
 exports.decorateConfig = (config) => {
     return Object.assign({}, config, {
-				backgroundColor: "#25242e",
 				cursorColor: "#db00be",
-				cursorAccentColor: "#db00be",
-				borderColor: "#54daff",
 				foregroundColor: '#fff',
+				backgroundColor: "#25242e",
+				borderColor: "#54daff",
 				colors: {
 					black: '#000000',
 					red: '#C51E14',
@@ -41,13 +40,12 @@ exports.decorateConfig = (config) => {
 						width: 100%;
 						height: 100%;
 						background-image: url(${__dirname + '/image/minato.svg'});
-						background-size: auto 80%;
+						background-size: 40%;
 						background-position: right bottom;
 						background-repeat: no-repeat;
 						opacity: 0.3;
 					}
 					.xterm .xterm-viewport {
-						background-color: rgba(0,0,0,0) !impotant;
 					}
         `
     });
